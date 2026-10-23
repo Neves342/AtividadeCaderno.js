@@ -7,3 +7,5 @@ if(idade >= 12 || acompanhado === true) {
     console.log("Entrada não permitida")
 
 }
+
+//Porque 

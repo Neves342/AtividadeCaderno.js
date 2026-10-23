@@ -1,6 +1,6 @@
 //
 
-const idade = -16
+const idade = 16
 
 if(idade = -0) {
     console.log("Idade inválida")
