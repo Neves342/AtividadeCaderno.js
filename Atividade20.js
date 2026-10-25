@@ -14,6 +14,7 @@ let ferramentas = [
 console.log(ferramentas[0])
 console.log(ferramentas[2])
 console.log(ferramentas[4])
+console.log(ferramentas.length)
 
 
 
@@ -21,7 +22,7 @@ console.log(ferramentas[4])
    // o Vs code, Sql e Postman
 
 // b) Quantos elementos existem no array? 
-   // 4
+   // 5
  
 // c) Qual é o índice do último elemento? 
    // Postman
@@ -30,4 +31,4 @@ console.log(ferramentas[4])
   // ia dar undefined
 
 // e) Como substituir "Postman" por "Insomnia"?
-  // 
+  //  ferramentas[4] = "Insomnia";

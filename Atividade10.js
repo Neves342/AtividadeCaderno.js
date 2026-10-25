@@ -1,7 +1,7 @@
 // Atividade 10 — Menu com switch case 
 // Uma aplicação de mídia oferece as seguintes opções:
 
-const readline = require("readline-Sync")
+const readline = require("readline-sync")
 while (true) {
     console.log("1 - Reproduzir música");
     console.log("2 - Pausar reprodução");

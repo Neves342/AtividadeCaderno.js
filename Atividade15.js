@@ -4,10 +4,16 @@
 
 
 
+let soma = 0;
+let quantidadePares = 0;
 
-for (let i = 0; i < 99; i++) {
-    if (numero + numero) {
-         console.log(numero);
-     
- }}
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 === 0) {
+        soma += i;
+        quantidadePares++;
+    }
+}
+
+console.log(`A soma final: ${soma}`);
+console.log(`A quantidade de números pares encontrados: ${quantidadePares}`);
 
