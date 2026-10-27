@@ -1,7 +1,3 @@
-
-
-
-
 const entrada = require("readline-sync");
 
 let colecao = [

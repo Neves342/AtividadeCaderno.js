@@ -8,7 +8,7 @@ function loja(valorCompra) {
         return;
     }
 
-    let frete = 0;
+    let frete = [];
 
     if (valorCompra < 100.00) {
         frete = 20.00;
